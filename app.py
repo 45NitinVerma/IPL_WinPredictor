@@ -17,7 +17,7 @@ cities = ['Bangalore', 'Chandigarh', 'Delhi', 'Mumbai', 'Kolkata', 'Jaipur',
        'Abu Dhabi', 'Rajkot', 'Kanpur', 'Bengaluru', 'Sharjah',
        'Dubai', 'Navi Mumbai', 'Lucknow', 'Guwahati', 'Mohali']
 
-pipe = joblib.load('rf_win_predictor.pkl')
+pipe = joblib.load('rf_win_predictor2.pkl')
 
 st.title('IPL Win Predictor')
 
